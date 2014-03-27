@@ -8,6 +8,34 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>ergosphere_logo_58x58</string>
+				<string>ergosphere_logo_80x80</string>
+				<string>ergosphere_logo_120x120</string>
+				<string>ergosphere_logo</string>
+			</array>
+		</dict>
+	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>ergosphere_logo_29x29</string>
+				<string>ergosphere_logo_58x58</string>
+				<string>ergosphere_logo_40x40</string>
+				<string>ergosphere_logo_80x80</string>
+				<string>ergosphere_logo_152x152</string>
+				<string>ergosphere_logo_76x76</string>
+			</array>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
 	<string>com.teamdreamthedreamteam.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
