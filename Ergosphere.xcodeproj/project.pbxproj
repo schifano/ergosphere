@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		294382C518E6593600D7323A /* launch_768x1024@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 294382C418E6593600D7323A /* launch_768x1024@2x.png */; };
+		29729EC218E658B3003D8BE3 /* launch_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 29729EBE18E658B3003D8BE3 /* launch_768x1024.png */; };
+		29729EC418E658B3003D8BE3 /* launch_1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 29729EC018E658B3003D8BE3 /* launch_1024x768.png */; };
+		29729EC518E658B3003D8BE3 /* launch_1024x768@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29729EC118E658B3003D8BE3 /* launch_1024x768@2x.png */; };
 		297B955B18E3DC10004D0510 /* ergosphere_logo_76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 297B955A18E3DC10004D0510 /* ergosphere_logo_76x76.png */; };
 		297B955D18E3DCEE004D0510 /* ergosphere_logo_120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 297B955C18E3DCEE004D0510 /* ergosphere_logo_120x120.png */; };
 		297B955F18E3DD31004D0510 /* ergosphere_logo_152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 297B955E18E3DD31004D0510 /* ergosphere_logo_152x152.png */; };
@@ -45,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		294382C418E6593600D7323A /* launch_768x1024@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_768x1024@2x.png"; sourceTree = "<group>"; };
+		29729EBE18E658B3003D8BE3 /* launch_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_768x1024.png; sourceTree = "<group>"; };
+		29729EC018E658B3003D8BE3 /* launch_1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_1024x768.png; sourceTree = "<group>"; };
+		29729EC118E658B3003D8BE3 /* launch_1024x768@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_1024x768@2x.png"; sourceTree = "<group>"; };
 		297B955A18E3DC10004D0510 /* ergosphere_logo_76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ergosphere_logo_76x76.png; sourceTree = "<group>"; };
 		297B955C18E3DCEE004D0510 /* ergosphere_logo_120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ergosphere_logo_120x120.png; sourceTree = "<group>"; };
 		297B955E18E3DD31004D0510 /* ergosphere_logo_152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ergosphere_logo_152x152.png; sourceTree = "<group>"; };
@@ -190,6 +198,10 @@
 		299CE81418E3D32000A910A9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				294382C418E6593600D7323A /* launch_768x1024@2x.png */,
+				29729EBE18E658B3003D8BE3 /* launch_768x1024.png */,
+				29729EC018E658B3003D8BE3 /* launch_1024x768.png */,
+				29729EC118E658B3003D8BE3 /* launch_1024x768@2x.png */,
 				297B956618E3DE10004D0510 /* ergosphere_logo_29x29.png */,
 				297B956418E3DDF4004D0510 /* ergosphere_logo_58x58.png */,
 				297B956218E3DDD6004D0510 /* ergosphere_logo_40x40.png */,
@@ -281,13 +293,17 @@
 				29811BF418E211000022FC32 /* Main_iPad.storyboard in Resources */,
 				297B955F18E3DD31004D0510 /* ergosphere_logo_152x152.png in Resources */,
 				29A74ACF18E21359002B8332 /* default.css in Resources */,
+				29729EC418E658B3003D8BE3 /* launch_1024x768.png in Resources */,
 				297B956118E3DDB5004D0510 /* ergosphere_logo_80x80.png in Resources */,
 				29811BF918E211000022FC32 /* Images.xcassets in Resources */,
 				29811BF118E211000022FC32 /* Main_iPhone.storyboard in Resources */,
 				297B955B18E3DC10004D0510 /* ergosphere_logo_76x76.png in Resources */,
 				297B956318E3DDD6004D0510 /* ergosphere_logo_40x40.png in Resources */,
+				29729EC518E658B3003D8BE3 /* launch_1024x768@2x.png in Resources */,
+				29729EC218E658B3003D8BE3 /* launch_768x1024.png in Resources */,
 				299CE81618E3D32000A910A9 /* ergosphere_logo.png in Resources */,
 				297B956518E3DDF4004D0510 /* ergosphere_logo_58x58.png in Resources */,
+				294382C518E6593600D7323A /* launch_768x1024@2x.png in Resources */,
 				29811BE818E211000022FC32 /* InfoPlist.strings in Resources */,
 				297B956718E3DE10004D0510 /* ergosphere_logo_29x29.png in Resources */,
 				297B955D18E3DCEE004D0510 /* ergosphere_logo_120x120.png in Resources */,
@@ -444,7 +460,6 @@
 		29811C1018E211000022FC32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/schifano/Desktop/PixateFreestyle,
@@ -453,6 +468,7 @@
 				GCC_PREFIX_HEADER = "Ergosphere/Ergosphere-Prefix.pch";
 				INFOPLIST_FILE = "Ergosphere/Ergosphere-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -460,7 +476,6 @@
 		29811C1118E211000022FC32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/schifano/Desktop/PixateFreestyle,
@@ -469,6 +484,7 @@
 				GCC_PREFIX_HEADER = "Ergosphere/Ergosphere-Prefix.pch";
 				INFOPLIST_FILE = "Ergosphere/Ergosphere-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

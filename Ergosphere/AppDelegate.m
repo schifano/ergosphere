@@ -12,6 +12,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // pauses LAUNCH screen[NSThread sleepForTimeInterval:800];
     // Override point for customization after application launch.
     return YES;
 }
