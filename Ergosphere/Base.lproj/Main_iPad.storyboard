@@ -27,6 +27,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="btn-course-ipad"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showMeow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kle-m3-AKV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ewa-tg-We8">
                                 <rect key="frame" x="34" y="525" width="700" height="150"/>
@@ -39,6 +42,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="btn-course-ipad"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Efh-ZF-5te"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home-header.png" translatesAutoresizingMaskIntoConstraints="NO" id="1CD-6A-XNM">
                                 <rect key="frame" x="0.0" y="20" width="768" height="310"/>
