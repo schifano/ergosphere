@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		294382C518E6593600D7323A /* launch_768x1024@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 294382C418E6593600D7323A /* launch_768x1024@2x.png */; };
+		294382C718E683C700D7323A /* home-header.png in Resources */ = {isa = PBXBuildFile; fileRef = 294382C618E683C700D7323A /* home-header.png */; };
 		29729EC218E658B3003D8BE3 /* launch_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 29729EBE18E658B3003D8BE3 /* launch_768x1024.png */; };
 		29729EC418E658B3003D8BE3 /* launch_1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 29729EC018E658B3003D8BE3 /* launch_1024x768.png */; };
 		29729EC518E658B3003D8BE3 /* launch_1024x768@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29729EC118E658B3003D8BE3 /* launch_1024x768@2x.png */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		294382C418E6593600D7323A /* launch_768x1024@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_768x1024@2x.png"; sourceTree = "<group>"; };
+		294382C618E683C700D7323A /* home-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-header.png"; sourceTree = "<group>"; };
 		29729EBE18E658B3003D8BE3 /* launch_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_768x1024.png; sourceTree = "<group>"; };
 		29729EC018E658B3003D8BE3 /* launch_1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_1024x768.png; sourceTree = "<group>"; };
 		29729EC118E658B3003D8BE3 /* launch_1024x768@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_1024x768@2x.png"; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 		299CE81418E3D32000A910A9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				294382C618E683C700D7323A /* home-header.png */,
 				294382C418E6593600D7323A /* launch_768x1024@2x.png */,
 				29729EBE18E658B3003D8BE3 /* launch_768x1024.png */,
 				29729EC018E658B3003D8BE3 /* launch_1024x768.png */,
@@ -301,6 +304,7 @@
 				297B956318E3DDD6004D0510 /* ergosphere_logo_40x40.png in Resources */,
 				29729EC518E658B3003D8BE3 /* launch_1024x768@2x.png in Resources */,
 				29729EC218E658B3003D8BE3 /* launch_768x1024.png in Resources */,
+				294382C718E683C700D7323A /* home-header.png in Resources */,
 				299CE81618E3D32000A910A9 /* ergosphere_logo.png in Resources */,
 				297B956518E3DDF4004D0510 /* ergosphere_logo_58x58.png in Resources */,
 				294382C518E6593600D7323A /* launch_768x1024@2x.png in Resources */,

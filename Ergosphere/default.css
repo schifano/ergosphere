@@ -2,15 +2,29 @@ view {
   background-color: #f0f0f0;
 }
 
-.btn-course {
+.btn-course-ipad {
   color            : #666;
   background-color : #fff;
   border-width     : 2px;
-  border-color     : #666;
+  border-color     : #ccc;
   border-style     : solid;
   font-size        : 50px;
 }
-
+.btn-course-iphone {
+  color            : #666;
+  background-color : #fff;
+  border-width     : 2px;
+  border-color     : #ccc;
+  border-style     : solid;
+  font-size        : 50px;
+}
+.btn-small-ipad {
+    color: #fff;
+    background-color: #7985AF;
+    border-radius: 10px;
+}
+.btn-small-iphone {
+}
 .img {
     background-image: url('http://schifano.github.io/mad/images/ergosphere_logo.png');
 }
