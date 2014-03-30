@@ -83,7 +83,7 @@
 		29811C0918E211000022FC32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29811C0B18E211000022FC32 /* ErgosphereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErgosphereTests.m; sourceTree = "<group>"; };
 		299CE81518E3D32000A910A9 /* ergosphere_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ergosphere_logo.png; sourceTree = "<group>"; };
-		29A742B318E21198002B8332 /* PixateFreestyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PixateFreestyle.framework; path = ../../Desktop/PixateFreestyle/PixateFreestyle.framework; sourceTree = "<group>"; };
+		29A742B318E21198002B8332 /* PixateFreestyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PixateFreestyle.framework; path = ../../../Desktop/PixateFreestyle/PixateFreestyle.framework; sourceTree = "<group>"; };
 		29A74ACE18E21359002B8332 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,7 +134,6 @@
 		29811BDC18E211000022FC32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				29A742B318E21198002B8332 /* PixateFreestyle.framework */,
 				29811BDD18E211000022FC32 /* Foundation.framework */,
 				29811BDF18E211000022FC32 /* CoreGraphics.framework */,
 				29811BE118E211000022FC32 /* UIKit.framework */,
@@ -147,8 +146,11 @@
 			isa = PBXGroup;
 			children = (
 				299CE81318E3D32000A910A9 /* Assets */,
-				29811BEC18E211000022FC32 /* AppDelegate.h */,
+				2999275D18E7C8F50041DF8E /* Logic */,
+				2999275C18E7C8B60041DF8E /* Frameworks */,
+				2999275F18E7C9150041DF8E /* Presentation */,
 				29811BED18E211000022FC32 /* AppDelegate.m */,
+				29811BEC18E211000022FC32 /* AppDelegate.h */,
 				29811BEF18E211000022FC32 /* Main_iPhone.storyboard */,
 				29A74ACE18E21359002B8332 /* default.css */,
 				29811BF218E211000022FC32 /* Main_iPad.storyboard */,
@@ -187,6 +189,52 @@
 				29811C0818E211000022FC32 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2999275C18E7C8B60041DF8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29A742B318E21198002B8332 /* PixateFreestyle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2999275D18E7C8F50041DF8E /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				2999275E18E7C8FE0041DF8E /* Models */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		2999275E18E7C8FE0041DF8E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2999275F18E7C9150041DF8E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2999276118E7C91E0041DF8E /* ViewControllers */,
+				2999276018E7C91B0041DF8E /* Views */,
+			);
+			name = Presentation;
+			sourceTree = "<group>";
+		};
+		2999276018E7C91B0041DF8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		2999276118E7C91E0041DF8E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		299CE81318E3D32000A910A9 /* Assets */ = {
