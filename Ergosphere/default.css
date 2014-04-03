@@ -1,7 +1,13 @@
 view {
   background-color: #f0f0f0;
 }
-
+.table-view-home {
+    background-color:#fff;
+    color: #666;
+    border-width: 2px;
+    border-color: #ccc;
+    background-padding: 10px;
+}
 .btn-course-ipad {
   color            : #666;
   background-color : #fff;
