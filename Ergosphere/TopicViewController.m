@@ -15,7 +15,7 @@
 @implementation TopicViewController
 
     NSArray *topics;
-    NSArray *topicsThumbnails;
+    NSArray *thumbnails;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,7 +35,7 @@
     topics = [NSArray arrayWithObjects:@"Beginner Polish", @"Cognitive Science", @"Learning Design Vocabulary", @"Music Technology", @"DJ Tips & Tricks", @"Famous Ballets and Composers", @"Elements & Principles of Art", @"Architecture", @"Super Mario Characters", @"Korean Characters", nil];
     
     // Initialize Thumbnail Data
-    topicsThumbnails = [NSArray arrayWithObjects:@"meow.png", nil];
+    thumbnails = [NSArray arrayWithObjects:@"polish.png", @"cog-sci.png", @"design.png", @"music-tech.png", @"dj-controller.png", @"ballet.png", @"art.png", @"architecture.png", @"mario.png", @"korean.png", nil];
     
 }
 
@@ -64,7 +64,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *simpleTableIdentifier = @"RecipeCell";
+    static NSString *simpleTableIdentifier = @"TopicCell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
     
@@ -73,7 +73,8 @@
     }
     
     cell.textLabel.text = [topics objectAtIndex:indexPath.row];
-
+    cell.imageView.image = [UIImage imageNamed:@"dj-controller.png"];
+    // cell.imageView.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
     return cell;
 }
 

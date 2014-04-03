@@ -46,19 +46,19 @@
 // TEST TEST TEST
 -(IBAction)showMeow:(id)sender{
     
-    UIAlertView *alert =[[UIAlertView alloc] initWithTitle:@"I love Michal" message:@"Hug Hug Kitty Meow" delegate:self cancelButtonTitle:@"yah okie" otherButtonTitles:nil, nil];
+    UIAlertView *alert =[[UIAlertView alloc] initWithTitle:@"Meow!" message:@"This is a test." delegate:self cancelButtonTitle:@"Yeah, okay." otherButtonTitles:nil, nil];
     [alert show];
 }
 // TEST TEST TEST
 - (IBAction)play:(id)sender {
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
         // For iPhone
-        UIAlertView *playAlert = [[UIAlertView alloc] initWithTitle:@"New Game" message:@"Start Playing..." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        UIAlertView *playAlert = [[UIAlertView alloc] initWithTitle:@"A wild new topic appeared!" message:@"Learn something new!" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
         [playAlert show];
         
     } else {
         // For iPad
-        UIAlertView *playAlert = [[UIAlertView alloc] initWithTitle:@"Game Over" message:@"sry u lost the game" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        UIAlertView *playAlert = [[UIAlertView alloc] initWithTitle:@"Game Over" message:@"Sorry, you lost the game." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
         [playAlert show];
     }
 }

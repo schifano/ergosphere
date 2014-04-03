@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2924325018ECEEF800002C48 /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2924324F18ECEEF800002C48 /* TopicViewController.m */; };
+		2924327118ED1B7D00002C48 /* art.png in Resources */ = {isa = PBXBuildFile; fileRef = 2924326718ED1B7D00002C48 /* art.png */; };
+		2924327218ED1B7D00002C48 /* ballet.png in Resources */ = {isa = PBXBuildFile; fileRef = 2924326818ED1B7D00002C48 /* ballet.png */; };
+		2924327318ED1B7D00002C48 /* cog-sci.png in Resources */ = {isa = PBXBuildFile; fileRef = 2924326918ED1B7D00002C48 /* cog-sci.png */; };
+		2924327418ED1B7D00002C48 /* design.png in Resources */ = {isa = PBXBuildFile; fileRef = 2924326A18ED1B7D00002C48 /* design.png */; };
+		2924327518ED1B7D00002C48 /* dj-controller.png in Resources */ = {isa = PBXBuildFile; fileRef = 2924326B18ED1B7D00002C48 /* dj-controller.png */; };
+		2924327618ED1B7D00002C48 /* korean.png in Resources */ = {isa = PBXBuildFile; fileRef = 2924326C18ED1B7D00002C48 /* korean.png */; };
+		2924327718ED1B7D00002C48 /* mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 2924326D18ED1B7D00002C48 /* mario.png */; };
+		2924327818ED1B7D00002C48 /* music-tech.png in Resources */ = {isa = PBXBuildFile; fileRef = 2924326E18ED1B7D00002C48 /* music-tech.png */; };
+		2924327918ED1B7D00002C48 /* polish.png in Resources */ = {isa = PBXBuildFile; fileRef = 2924326F18ED1B7D00002C48 /* polish.png */; };
 		294382C518E6593600D7323A /* launch_768x1024@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 294382C418E6593600D7323A /* launch_768x1024@2x.png */; };
 		294382C718E683C700D7323A /* home-header.png in Resources */ = {isa = PBXBuildFile; fileRef = 294382C618E683C700D7323A /* home-header.png */; };
 		29729EC218E658B3003D8BE3 /* launch_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 29729EBE18E658B3003D8BE3 /* launch_768x1024.png */; };
@@ -20,6 +29,9 @@
 		297B956318E3DDD6004D0510 /* ergosphere_logo_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 297B956218E3DDD6004D0510 /* ergosphere_logo_40x40.png */; };
 		297B956518E3DDF4004D0510 /* ergosphere_logo_58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 297B956418E3DDF4004D0510 /* ergosphere_logo_58x58.png */; };
 		297B956718E3DE10004D0510 /* ergosphere_logo_29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 297B956618E3DE10004D0510 /* ergosphere_logo_29x29.png */; };
+		297EB8E118ED1D6B0091C635 /* architecture.png in Resources */ = {isa = PBXBuildFile; fileRef = 2924326618ED1B7D00002C48 /* architecture.png */; };
+		297EB8E418ED20D60091C635 /* TopicTableCell_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 297EB8E318ED20D60091C635 /* TopicTableCell_iPad.xib */; };
+		297EB8E718ED23110091C635 /* TopicTableCell_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 297EB8E618ED23110091C635 /* TopicTableCell_iPad.m */; };
 		29811BDE18E211000022FC32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29811BDD18E211000022FC32 /* Foundation.framework */; };
 		29811BE018E211000022FC32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29811BDF18E211000022FC32 /* CoreGraphics.framework */; };
 		29811BE218E211000022FC32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29811BE118E211000022FC32 /* UIKit.framework */; };
@@ -56,6 +68,16 @@
 /* Begin PBXFileReference section */
 		2924324E18ECEEF800002C48 /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
 		2924324F18ECEEF800002C48 /* TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicViewController.m; sourceTree = "<group>"; };
+		2924326618ED1B7D00002C48 /* architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = architecture.png; path = test/architecture.png; sourceTree = "<group>"; };
+		2924326718ED1B7D00002C48 /* art.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = art.png; path = test/art.png; sourceTree = "<group>"; };
+		2924326818ED1B7D00002C48 /* ballet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ballet.png; path = test/ballet.png; sourceTree = "<group>"; };
+		2924326918ED1B7D00002C48 /* cog-sci.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cog-sci.png"; path = "test/cog-sci.png"; sourceTree = "<group>"; };
+		2924326A18ED1B7D00002C48 /* design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = design.png; path = test/design.png; sourceTree = "<group>"; };
+		2924326B18ED1B7D00002C48 /* dj-controller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dj-controller.png"; path = "test/dj-controller.png"; sourceTree = "<group>"; };
+		2924326C18ED1B7D00002C48 /* korean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = korean.png; path = test/korean.png; sourceTree = "<group>"; };
+		2924326D18ED1B7D00002C48 /* mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mario.png; path = test/mario.png; sourceTree = "<group>"; };
+		2924326E18ED1B7D00002C48 /* music-tech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "music-tech.png"; path = "test/music-tech.png"; sourceTree = "<group>"; };
+		2924326F18ED1B7D00002C48 /* polish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = polish.png; path = test/polish.png; sourceTree = "<group>"; };
 		294382C418E6593600D7323A /* launch_768x1024@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_768x1024@2x.png"; sourceTree = "<group>"; };
 		294382C618E683C700D7323A /* home-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-header.png"; sourceTree = "<group>"; };
 		29729EBE18E658B3003D8BE3 /* launch_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_768x1024.png; sourceTree = "<group>"; };
@@ -68,6 +90,9 @@
 		297B956218E3DDD6004D0510 /* ergosphere_logo_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ergosphere_logo_40x40.png; sourceTree = "<group>"; };
 		297B956418E3DDF4004D0510 /* ergosphere_logo_58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ergosphere_logo_58x58.png; sourceTree = "<group>"; };
 		297B956618E3DE10004D0510 /* ergosphere_logo_29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ergosphere_logo_29x29.png; sourceTree = "<group>"; };
+		297EB8E318ED20D60091C635 /* TopicTableCell_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicTableCell_iPad.xib; sourceTree = "<group>"; };
+		297EB8E518ED23110091C635 /* TopicTableCell_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopicTableCell_iPad.h; path = Presentation/Presentation/UserInterface/TopicTableCell_iPad.h; sourceTree = "<group>"; };
+		297EB8E618ED23110091C635 /* TopicTableCell_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicTableCell_iPad.m; path = Presentation/Presentation/UserInterface/TopicTableCell_iPad.m; sourceTree = "<group>"; };
 		29811BDA18E211000022FC32 /* Ergosphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ergosphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29811BDD18E211000022FC32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		29811BDF18E211000022FC32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +147,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2924325118ED174700002C48 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				2924326618ED1B7D00002C48 /* architecture.png */,
+				2924326718ED1B7D00002C48 /* art.png */,
+				2924326818ED1B7D00002C48 /* ballet.png */,
+				2924326918ED1B7D00002C48 /* cog-sci.png */,
+				2924326A18ED1B7D00002C48 /* design.png */,
+				2924326B18ED1B7D00002C48 /* dj-controller.png */,
+				2924326C18ED1B7D00002C48 /* korean.png */,
+				2924326D18ED1B7D00002C48 /* mario.png */,
+				2924326E18ED1B7D00002C48 /* music-tech.png */,
+				2924326F18ED1B7D00002C48 /* polish.png */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		297EB8E218ED209A0091C635 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				297EB8E318ED20D60091C635 /* TopicTableCell_iPad.xib */,
+				297EB8E518ED23110091C635 /* TopicTableCell_iPad.h */,
+				297EB8E618ED23110091C635 /* TopicTableCell_iPad.m */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
 		29811BD118E211000022FC32 = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +278,7 @@
 		2999275F18E7C9150041DF8E /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				297EB8E218ED209A0091C635 /* UserInterface */,
 				2999276118E7C91E0041DF8E /* ViewControllers */,
 				2999276018E7C91B0041DF8E /* Views */,
 			);
@@ -270,6 +323,7 @@
 		299CE81418E3D32000A910A9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2924325118ED174700002C48 /* test */,
 				29E66E3518EBA32C0084ABE3 /* launch_640x1136.png */,
 				29E66E3318EBA2E30084ABE3 /* launch_640x960.png */,
 				294382C618E683C700D7323A /* home-header.png */,
@@ -365,26 +419,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2924327218ED1B7D00002C48 /* ballet.png in Resources */,
 				29E66E3418EBA2E30084ABE3 /* launch_640x960.png in Resources */,
 				29E66E3618EBA32C0084ABE3 /* launch_640x1136.png in Resources */,
 				29811BF418E211000022FC32 /* Main_iPad.storyboard in Resources */,
+				2924327618ED1B7D00002C48 /* korean.png in Resources */,
+				2924327918ED1B7D00002C48 /* polish.png in Resources */,
 				297B955F18E3DD31004D0510 /* ergosphere_logo_152x152.png in Resources */,
 				29A74ACF18E21359002B8332 /* default.css in Resources */,
+				2924327718ED1B7D00002C48 /* mario.png in Resources */,
 				29729EC418E658B3003D8BE3 /* launch_1024x768.png in Resources */,
+				2924327118ED1B7D00002C48 /* art.png in Resources */,
 				297B956118E3DDB5004D0510 /* ergosphere_logo_80x80.png in Resources */,
 				29811BF918E211000022FC32 /* Images.xcassets in Resources */,
 				29811BF118E211000022FC32 /* Main_iPhone.storyboard in Resources */,
+				2924327418ED1B7D00002C48 /* design.png in Resources */,
+				297EB8E418ED20D60091C635 /* TopicTableCell_iPad.xib in Resources */,
+				2924327818ED1B7D00002C48 /* music-tech.png in Resources */,
 				297B955B18E3DC10004D0510 /* ergosphere_logo_76x76.png in Resources */,
 				297B956318E3DDD6004D0510 /* ergosphere_logo_40x40.png in Resources */,
+				297EB8E118ED1D6B0091C635 /* architecture.png in Resources */,
 				29729EC518E658B3003D8BE3 /* launch_1024x768@2x.png in Resources */,
 				29729EC218E658B3003D8BE3 /* launch_768x1024.png in Resources */,
 				294382C718E683C700D7323A /* home-header.png in Resources */,
 				299CE81618E3D32000A910A9 /* ergosphere_logo.png in Resources */,
 				297B956518E3DDF4004D0510 /* ergosphere_logo_58x58.png in Resources */,
+				2924327318ED1B7D00002C48 /* cog-sci.png in Resources */,
 				294382C518E6593600D7323A /* launch_768x1024@2x.png in Resources */,
 				29811BE818E211000022FC32 /* InfoPlist.strings in Resources */,
 				297B956718E3DE10004D0510 /* ergosphere_logo_29x29.png in Resources */,
 				297B955D18E3DCEE004D0510 /* ergosphere_logo_120x120.png in Resources */,
+				2924327518ED1B7D00002C48 /* dj-controller.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +469,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29811BF718E211000022FC32 /* ViewController.m in Sources */,
+				297EB8E718ED23110091C635 /* TopicTableCell_iPad.m in Sources */,
 				2999276418E7CE330041DF8E /* TopicDetailViewController.m in Sources */,
 				29811BEE18E211000022FC32 /* AppDelegate.m in Sources */,
 				2924325018ECEEF800002C48 /* TopicViewController.m in Sources */,
