@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TopicDetailViewController.h"
 
 @interface ViewController : UIViewController
-
+{
+    TopicDetailViewController *topicViewController;
+}
+@property (nonatomic, retain) TopicDetailViewController *topicViewController;
 @end

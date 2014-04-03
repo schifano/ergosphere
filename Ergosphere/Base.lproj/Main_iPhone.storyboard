@@ -27,6 +27,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="btn-course-iphone"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showMeow:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nEk-Bm-Tvh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAb-aC-SBa">
                                 <rect key="frame" x="17" y="230" width="288" height="55"/>

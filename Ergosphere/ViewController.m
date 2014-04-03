@@ -24,11 +24,23 @@
     
 }
 
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+// Function allows for segue
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+
+}
+
+
+
 
 
 // TEST TEST TEST
