@@ -15,6 +15,7 @@
 @implementation TopicViewController
 
     NSArray *topics;
+    NSArray *topicsThumbnails;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,7 +30,13 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    topics = [NSArray arrayWithObjects:@"Beginner Polish", @"Cognitive Science", @"Full Breakfast", @"Hamburger", @"Ham and Egg Sandwich", @"Creme Brelee", @"White Chocolate Donut", @"Starbucks Coffee", @"Vegetable Curry", @"Instant Noodle with Egg", @"Noodle with BBQ Pork", @"Japanese Noodle with Pork", @"Green Tea", nil];
+    
+    // Initialize Table Data
+    topics = [NSArray arrayWithObjects:@"Beginner Polish", @"Cognitive Science", @"Learning Design Vocabulary", @"Music Technology", @"DJ Tips & Tricks", @"Famous Ballets and Composers", @"Elements & Principles of Art", @"Architecture", @"Super Mario Characters", @"Korean Characters", nil];
+    
+    // Initialize Thumbnail Data
+    topicsThumbnails = [NSArray arrayWithObjects:@"meow.png", nil];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -66,6 +73,7 @@
     }
     
     cell.textLabel.text = [topics objectAtIndex:indexPath.row];
+
     return cell;
 }
 
