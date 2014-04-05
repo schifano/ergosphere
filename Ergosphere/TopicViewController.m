@@ -7,6 +7,7 @@
 //
 
 #import "TopicViewController.h"
+#import "TopicTableCell.h"
 
 @interface TopicViewController ()
 
@@ -32,10 +33,10 @@
     // Do any additional setup after loading the view.
     
     // Initialize Table Data
-    topics = [NSArray arrayWithObjects:@"Beginner Polish", @"Cognitive Science", @"Learning Design Vocabulary", @"Music Technology", @"DJ Tips & Tricks", @"Famous Ballets and Composers", @"Elements & Principles of Art", @"Architecture", @"Super Mario Characters", @"Korean Characters", nil];
+    topics = [NSArray arrayWithObjects:@"Intermediate Polish", @"Cognitive Science", @"Music Technology", @"DJ Tips & Tricks", @"Elements & Principles of Art", @"Architecture", @"Korean Characters", nil];
     
     // Initialize Thumbnail Data
-    thumbnails = [NSArray arrayWithObjects:@"polish.png", @"cog-sci.png", @"design.png", @"music-tech.png", @"dj-controller.png", @"ballet.png", @"art.png", @"architecture.png", @"mario.png", @"korean.png", nil];
+    thumbnails = [NSArray arrayWithObjects:@"polish.png", @"cog-sci.png", @"music-tech.png", @"dj-controller.png", @"art.png", @"architecture.png", @"korean.png", nil];
     
 }
 
@@ -64,17 +65,20 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *simpleTableIdentifier = @"TopicCell";
+    static NSString *topicTableIdentifier = @"TopicTableCell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+    TopicTableCell *cell = (TopicTableCell *)[tableView dequeueReusableCellWithIdentifier:topicTableIdentifier];
     
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
+    
+    if (cell == nil)
+    {
+        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"TopicTableCell_iPad" owner:self options:nil];
+        cell = [nib objectAtIndex:0];
     }
     
-    cell.textLabel.text = [topics objectAtIndex:indexPath.row];
-    cell.imageView.image = [UIImage imageNamed:@"dj-controller.png"];
-    // cell.imageView.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
+    cell.topicLabel.text = [topics objectAtIndex:indexPath.row];
+    cell.thumbnailImageView.image = [UIImage imageNamed:[thumbnails objectAtIndex:indexPath.row]];
+    
     return cell;
 }
 

@@ -46,7 +46,7 @@
 // TEST TEST TEST
 -(IBAction)showMeow:(id)sender{
     
-    UIAlertView *alert =[[UIAlertView alloc] initWithTitle:@"Meow!" message:@"This is a test." delegate:self cancelButtonTitle:@"Yeah, okay." otherButtonTitles:nil, nil];
+    UIAlertView *alert =[[UIAlertView alloc] initWithTitle:@"I'm being interviewed!" message:@"This is a test alert to ensure the app works." delegate:self cancelButtonTitle:@"Okay." otherButtonTitles:nil, nil];
     [alert show];
 }
 // TEST TEST TEST

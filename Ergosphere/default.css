@@ -1,13 +1,6 @@
 view {
   background-color: #f0f0f0;
 }
-.table-view-home {
-    background-color: #fff;
-    color: #666;
-    border-width: 2px;
-    border-color: #ccc;
-    background-padding: 10px;
-}
 .btn-course-ipad {
   color            : #666;
   background-color : #fff;
@@ -26,11 +19,20 @@ view {
 }
 .btn-small-ipad {
     color: #fff;
-    background-color: #7985AF;
-    border-radius: 10px;
+    background-color: #7A81B1;
+    border-style: solid;
+    font-size: 25px;
 }
 .btn-small-iphone {
 }
 .img {
     background-image: url('http://schifano.github.io/mad/images/ergosphere_logo.png');
+}
+.topic-cell {
+    background-color: #fff;
+    border-width: 2px;
+    border-color: #8044bb;
+}
+.topic-label {
+    background-color: #fff;
 }
