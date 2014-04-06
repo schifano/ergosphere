@@ -7,24 +7,43 @@
 //
 
 #import "ViewController.h"
+#import "Topic.h"
+#import "TopicManager.h"
+#import "TopicCommunicator.h"
 
-@interface ViewController ()
+@interface ViewController () <TopicManagerDelegate> {
+    NSArray *_topics;
+    TopicManager *_manager;
+}
+
 
 @end
 
 @implementation ViewController
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-
+    _manager = [[TopicManager alloc] init]; // instantiate new manager
+    _manager.communicator = [[TopicCommunicator alloc] init]; // fill communicator property
+    _manager.communicator.delegate = _manager;
+    _manager.delegate = self;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(startFetchingTopics:)
+                                                 name:@"kCLAuthorizationStatusAuthorized"
+                                               object:nil];
     
     
 }
 
-
+- (void)startFetchingGroups:(NSNotification *)notification
+{
+    [_manager fetchTopicsAtCoordinate:self.locationManager.location.coordinate];
+}
 
 - (void)didReceiveMemoryWarning
 {

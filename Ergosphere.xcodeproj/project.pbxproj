@@ -17,6 +17,9 @@
 		2924327718ED1B7D00002C48 /* mario.png in Resources */ = {isa = PBXBuildFile; fileRef = 2924326D18ED1B7D00002C48 /* mario.png */; };
 		2924327818ED1B7D00002C48 /* music-tech.png in Resources */ = {isa = PBXBuildFile; fileRef = 2924326E18ED1B7D00002C48 /* music-tech.png */; };
 		2924327918ED1B7D00002C48 /* polish.png in Resources */ = {isa = PBXBuildFile; fileRef = 2924326F18ED1B7D00002C48 /* polish.png */; };
+		2938CEEA18F0DDB6009C8172 /* TopicCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2938CEE918F0DDB6009C8172 /* TopicCommunicator.m */; };
+		2938CEF118F0E396009C8172 /* TopicBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2938CEF018F0E396009C8172 /* TopicBuilder.m */; };
+		2938CEF518F0E80F009C8172 /* TopicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2938CEF418F0E80F009C8172 /* TopicManager.m */; };
 		294382C518E6593600D7323A /* launch_768x1024@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 294382C418E6593600D7323A /* launch_768x1024@2x.png */; };
 		294382C718E683C700D7323A /* home-header.png in Resources */ = {isa = PBXBuildFile; fileRef = 294382C618E683C700D7323A /* home-header.png */; };
 		29729EC218E658B3003D8BE3 /* launch_768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 29729EBE18E658B3003D8BE3 /* launch_768x1024.png */; };
@@ -47,6 +50,7 @@
 		29811C0C18E211000022FC32 /* ErgosphereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29811C0B18E211000022FC32 /* ErgosphereTests.m */; };
 		2999276418E7CE330041DF8E /* TopicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2999276318E7CE330041DF8E /* TopicDetailViewController.m */; };
 		299CE81618E3D32000A910A9 /* ergosphere_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 299CE81518E3D32000A910A9 /* ergosphere_logo.png */; };
+		29A0BD8218F08B740053DFB2 /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A0BD8118F08B740053DFB2 /* Topic.m */; };
 		29A7470518E2119B002B8332 /* PixateFreestyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A742B318E21198002B8332 /* PixateFreestyle.framework */; };
 		29A74ACF18E21359002B8332 /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = 29A74ACE18E21359002B8332 /* default.css */; };
 		29E66E3418EBA2E30084ABE3 /* launch_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E66E3318EBA2E30084ABE3 /* launch_640x960.png */; };
@@ -78,6 +82,14 @@
 		2924326D18ED1B7D00002C48 /* mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mario.png; path = test/mario.png; sourceTree = "<group>"; };
 		2924326E18ED1B7D00002C48 /* music-tech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "music-tech.png"; path = "test/music-tech.png"; sourceTree = "<group>"; };
 		2924326F18ED1B7D00002C48 /* polish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = polish.png; path = test/polish.png; sourceTree = "<group>"; };
+		2938CEE718F0DCED009C8172 /* TopicCommunicatorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TopicCommunicatorDelegate.h; path = Data/TopicCommunicatorDelegate.h; sourceTree = "<group>"; };
+		2938CEE818F0DDB6009C8172 /* TopicCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopicCommunicator.h; path = Data/TopicCommunicator.h; sourceTree = "<group>"; };
+		2938CEE918F0DDB6009C8172 /* TopicCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicCommunicator.m; path = Data/TopicCommunicator.m; sourceTree = "<group>"; };
+		2938CEEF18F0E396009C8172 /* TopicBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopicBuilder.h; path = Data/JSON/TopicBuilder.h; sourceTree = "<group>"; };
+		2938CEF018F0E396009C8172 /* TopicBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicBuilder.m; path = Data/JSON/TopicBuilder.m; sourceTree = "<group>"; };
+		2938CEF218F0E78C009C8172 /* TopicManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TopicManagerDelegate.h; path = Data/JSON/TopicManagerDelegate.h; sourceTree = "<group>"; };
+		2938CEF318F0E80F009C8172 /* TopicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopicManager.h; path = Data/JSON/TopicManager.h; sourceTree = "<group>"; };
+		2938CEF418F0E80F009C8172 /* TopicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicManager.m; path = Data/JSON/TopicManager.m; sourceTree = "<group>"; };
 		294382C418E6593600D7323A /* launch_768x1024@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch_768x1024@2x.png"; sourceTree = "<group>"; };
 		294382C618E683C700D7323A /* home-header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-header.png"; sourceTree = "<group>"; };
 		29729EBE18E658B3003D8BE3 /* launch_768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_768x1024.png; sourceTree = "<group>"; };
@@ -113,6 +125,8 @@
 		2999276218E7CE330041DF8E /* TopicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopicDetailViewController.h; path = Presentation/ViewControllers/TopicDetailViewController.h; sourceTree = "<group>"; };
 		2999276318E7CE330041DF8E /* TopicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicDetailViewController.m; path = Presentation/ViewControllers/TopicDetailViewController.m; sourceTree = "<group>"; };
 		299CE81518E3D32000A910A9 /* ergosphere_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ergosphere_logo.png; sourceTree = "<group>"; };
+		29A0BD8018F08B740053DFB2 /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Topic.h; path = Data/Topic.h; sourceTree = "<group>"; };
+		29A0BD8118F08B740053DFB2 /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Topic.m; path = Data/Topic.m; sourceTree = "<group>"; };
 		29A742B318E21198002B8332 /* PixateFreestyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PixateFreestyle.framework; path = ../../../Desktop/PixateFreestyle/PixateFreestyle.framework; sourceTree = "<group>"; };
 		29A74ACE18E21359002B8332 /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = default.css; path = ../default.css; sourceTree = "<group>"; };
 		29E66E3318EBA2E30084ABE3 /* launch_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_640x960.png; sourceTree = "<group>"; };
@@ -164,6 +178,21 @@
 			name = test;
 			sourceTree = "<group>";
 		};
+		2938CEEE18F0E336009C8172 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2938CEE718F0DCED009C8172 /* TopicCommunicatorDelegate.h */,
+				2938CEE818F0DDB6009C8172 /* TopicCommunicator.h */,
+				2938CEE918F0DDB6009C8172 /* TopicCommunicator.m */,
+				2938CEEF18F0E396009C8172 /* TopicBuilder.h */,
+				2938CEF018F0E396009C8172 /* TopicBuilder.m */,
+				2938CEF218F0E78C009C8172 /* TopicManagerDelegate.h */,
+				2938CEF318F0E80F009C8172 /* TopicManager.h */,
+				2938CEF418F0E80F009C8172 /* TopicManager.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
 		297EB8E218ED209A0091C635 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				299CE81318E3D32000A910A9 /* Assets */,
+				29A0BD7F18F08B1C0053DFB2 /* Data */,
 				2999275D18E7C8F50041DF8E /* Logic */,
 				2999275C18E7C8B60041DF8E /* Frameworks */,
 				2999275F18E7C9150041DF8E /* Presentation */,
@@ -343,6 +373,16 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		29A0BD7F18F08B1C0053DFB2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2938CEEE18F0E336009C8172 /* JSON */,
+				29A0BD8018F08B740053DFB2 /* Topic.h */,
+				29A0BD8118F08B740053DFB2 /* Topic.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -468,11 +508,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2938CEF118F0E396009C8172 /* TopicBuilder.m in Sources */,
 				29811BF718E211000022FC32 /* ViewController.m in Sources */,
 				2999276418E7CE330041DF8E /* TopicDetailViewController.m in Sources */,
 				29811BEE18E211000022FC32 /* AppDelegate.m in Sources */,
 				2924325018ECEEF800002C48 /* TopicViewController.m in Sources */,
+				2938CEF518F0E80F009C8172 /* TopicManager.m in Sources */,
 				29811BEA18E211000022FC32 /* main.m in Sources */,
+				29A0BD8218F08B740053DFB2 /* Topic.m in Sources */,
+				2938CEEA18F0DDB6009C8172 /* TopicCommunicator.m in Sources */,
 				29F1CD4318EF7ADF00406CD9 /* TopicTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

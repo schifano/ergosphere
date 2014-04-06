@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Topic.h"
 
 @interface TopicDetailViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *topicPhoto;
 @property (nonatomic, strong) IBOutlet UILabel *topicLabel;
 @property (nonatomic, strong) NSString *topicName;
+
+@property (nonatomic, strong) Topic *topic;
 
 @end

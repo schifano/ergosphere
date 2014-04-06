@@ -14,4 +14,5 @@
     TopicDetailViewController *topicViewController;
 }
 @property (nonatomic, retain) TopicDetailViewController *topicViewController;
+
 @end

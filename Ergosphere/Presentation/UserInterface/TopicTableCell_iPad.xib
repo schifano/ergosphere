@@ -29,9 +29,6 @@
                     </label>
                 </subviews>
                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                <userDefinedRuntimeAttributes>
-                    <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="topic-cell"/>
-                </userDefinedRuntimeAttributes>
             </tableViewCellContentView>
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="topic-cell"/>
